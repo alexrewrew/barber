@@ -1,0 +1,313 @@
+body {
+    margin: 0;
+    padding: 0;
+    padding-top: 84px;
+    overflow-y: scroll;
+    font-size: 16px;
+    font-family: 'HelveticaNeueCyr', sans-serif;
+    background: #efefef;
+}
+
+.container {
+    width: 1200px;
+}
+
+p {}
+
+h1 {
+    font-family: 'Lobster';
+    text-align: center;
+    color: #fff;
+    font-size: 2.250em;
+}
+
+h2 {
+    font-family: 'Aero Matics Stencil';
+    text-align: center;
+    margin-top: 38px;
+    margin-bottom: 17px;
+}
+
+h3 {
+    font-family: 'Aero Matics Stencil';
+    font-size: 1.250em;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+h4 {
+    margin-top: 0;
+    font-size: 1em;
+    font-weight: 700;
+    margin-bottom: 21px;
+}
+
+h5 {}
+
+h6 {}
+
+input[type='text'],
+input[type='email'] {}
+
+textarea {}
+
+select {}
+
+button {}
+
+a {}
+
+a:hover,
+a:focus {}
+
+a,
+.transition {
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+
+/* select */
+
+.select2 {
+    background: transparent;
+    font-size: 1.125em;
+}
+
+.select2-container--default .select2-selection--single {
+    background: transparent;
+    border: none;
+    width: 70px;
+}
+
+.select2-container .select2-selection--single {
+    height: 19px;
+}
+
+.select2-container--default .select2-selection--single:focus {
+    outline: none;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 15px;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow b {
+    border-color: #fff transparent transparent transparent;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    font-size: .825em;
+    color: #fff;
+    line-height: 19px;
+}
+
+.select2-dropdown {
+    border: none;
+    font-family: 'Aero Matics Stencil';
+    font-weight: normal;
+    font-size: 1.25em;
+    color: #fff;
+    background: #000;
+}
+
+.select2-container--default .select2-results__option[aria-selected=true],
+.select2-container--default .select2-results__option--highlighted[aria-selected] {
+    background: transparent;
+    color: #427658;
+}
+
+
+/* button */
+
+.green_button {
+    background: #427658;
+    border-radius: 5px;
+    padding: 8px 37px;
+    font-size: 1.125em;
+    letter-spacing: -0.5px;
+    font-family: 'Aero Matics Stencil';
+    color: #fff;
+    display: inline-block;
+}
+
+.green_button:hover,
+.green_button:focus,
+.navbar-default .navbar-nav>li>a.green_button:hover,
+.navbar-default .navbar-nav>li>a.green_button:focus {
+    background: #fff;
+    color: #427658;
+    text-decoration: none;
+}
+
+
+/* navigation */
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.navbar-default {
+    background: #000;
+    border-radius: 0;
+    border: none;
+    -webkit-box-shadow: 0px 3px 0px 0px rgba(66, 118, 88, 0.9);
+    -moz-box-shadow: 0px 3px 0px 0px rgba(66, 118, 88, 0.9);
+    box-shadow: 0px 3px 0px 0px rgba(66, 118, 88, 0.9);
+}
+
+.navbar-default .navbar-nav>li>a {
+    font-family: 'Aero Matics Stencil';
+    font-weight: normal;
+    font-size: 1.25em;
+    color: #fff;
+    padding: 32px 15px;
+}
+
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover {
+    color: #427658;
+}
+
+.navbar-default .navbar-nav>li>a.li_separator {
+    padding-left: 30px;
+    padding-right: 0;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.navbar-default .navbar-nav>li>a.lang_select {
+    padding-left: 9px;
+    padding-right: 13px;
+}
+
+.navbar-default .navbar-nav>li>a.green_button {
+    padding: 8px 37px;
+    margin: 24px 0 24px 13px;
+}
+
+.navbar-brand {
+    padding: 9px 17px 5px 10px;
+}
+
+
+/* jumbo */
+
+#jumbo h1 {
+    padding-top: 219px;
+    padding-bottom: 283px;
+    line-height: 1.2;
+}
+
+.jumbo_section {
+    padding: 0;
+}
+
+.carousel-inner {
+    height: 661px;
+}
+
+
+/* slider */
+
+#carousel-example-generic img {
+    width: 100%;
+}
+
+
+/* prices */
+
+.border_separator {
+    padding-right: 3px;
+}
+
+.separator {
+    margin-left: 19px;
+    font-size: .7em;
+    font-weight: 900;
+}
+
+.additional_margin {
+    margin-left: 5px;
+}
+
+.content_adress {
+    padding-top: 42px;
+}
+
+.barboss_left {
+    font-family: 'HelveticaNeueCyr', sans-serif;
+    padding-right: 0;
+}
+
+.barboss_left p {
+    font-size: .997em;
+    font-weight: 100;
+    margin-bottom: 18px;
+    line-height: 1.2;
+    color: #7a7971;
+}
+
+.barboss_right {
+    padding-left: 40px;
+}
+
+.noun_img {
+    text-align: center;
+    margin-top: 73px;
+}
+
+
+/* table */
+
+.wrapper_table {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 64px;
+}
+
+.wrapper_table p {
+    padding-left: 3px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin: 0;
+    font-family: 'HelveticaNeueCyr', sans-serif;
+    color: #7a7971;
+}
+
+p.table_first_col {
+    padding-left: 15px;
+}
+
+p.table_header {
+    font-weight: 700;
+    color: #000;
+}
+
+.table_last_col {
+    padding-left: 0;
+}
+
+.table_last_col p {
+    padding-left: 0;
+}
+
+.table_row,
+.last_row {
+    border-top: 1px solid #d9d9d9;
+    border-left: 1px solid #d9d9d9;
+    border-right: 1px solid #d9d9d9;
+}
+
+.last_row {
+    border-bottom: 1px solid #d9d9d9;
+}
+
+a.line_link {
+    margin-top: 49px;
+    margin-bottom: 49px;
+    font-size: 1.25em;
+    padding: 3px 37px;
+}
