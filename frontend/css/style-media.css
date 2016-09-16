@@ -1,23 +1,102 @@
 /* Extra small devices (phones, less than 768px) */
 
-@media screen and (max-width: 767px) {}
+@media screen and (max-width: 767px) {
+    body {
+        padding: 0;
+    }
+    .navbar-default .navbar-toggle {
+        border: none;
+    }
+    .navbar-default .navbar-toggle .icon-bar {
+        background: #fff;
+        height: 3px;
+    }
+    .navbar-default {
+        background: transparent;
+    }
+    .navbar-brand > img {
+        height: 36px;
+    }
+    .navbar-default .navbar-collapse {
+        background: #000;
+    }
+    .navbar-default .navbar-nav > li > a {
+        padding: 10px 15px;
+    }
+    .navbar-default .green_button {
+        margin-top: 5px;
+    }
+    .navbar-default .navbar-header {
+        text-align: center;
+    }
+    /*jumbo */
+    #jumbo .container {
+        padding: 0;
+    }
+    #jumbo h1 {
+        font-size: 1.250em;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    h2 {
+        font-size: 1.250em;
+    }
+    /* */
+    .barboss_left {
+        text-align: center;
+        padding-right: 15px;
+    }
+    .noun_img {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+}
 
 
 /* Small devices (tablets, 768px and up) */
 
-@media (min-width:768px) and (max-width: 991px) {}
+@media (min-width:768px) and (max-width: 991px) {
+    .navbar-default .navbar-nav > li > a {
+        padding: 32px 5px;
+    }
+    .first_block {
+        padding-left: 15px;
+    }
+    .second_block {
+        padding-top: 60px;
+        padding-left: 15px;
+    }
+    .last_block {
+        padding-top: 100px;
+        padding-left: 15px;
+        padding-right: 255px;
+    }
+}
 
 
 /* Medium devices (desktops, 992px and up) */
 
-@media (min-width:992px) and (max-width: 1200px) {}
-
-
-/* monitor and tablet */
-
-@media (min-width:992px) and (max-width: 1200px) {}
+@media (min-width:992px) and (max-width: 1200px) {
+    .abs_master {
+        padding-top: 25%;
+    }
+    .master_wrapper.whywe_wrapper,
+    .whywe_section.master_section {
+        padding: 0;
+    }
+    .container.whywe_wrapper.master_wrapper {
+        width: 100%;
+    }
+}
 
 
 /* Large devices (large desktops, 1200px and up) */
 
-@media (min-width:1200px) {}
+@media (min-width:1200px) {
+    .container {
+        width: 1200px;
+    }
+    .whywe_wrapper.container {
+        width: 1300px;
+    }
+}

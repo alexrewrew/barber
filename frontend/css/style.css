@@ -8,10 +8,6 @@ body {
     background: #efefef;
 }
 
-.container {
-    width: 1200px;
-}
-
 p {}
 
 h1 {
@@ -61,7 +57,9 @@ a:hover,
 a:focus {}
 
 a,
-.transition {
+.transition,
+img,
+.social_links li {
     -webkit-transition: all 0.4s ease;
     -moz-transition: all 0.4s ease;
     -o-transition: all 0.4s ease;
@@ -307,7 +305,162 @@ p.table_header {
 
 a.line_link {
     margin-top: 49px;
-    margin-bottom: 49px;
+    margin-bottom: 53px;
     font-size: 1.25em;
     padding: 3px 37px;
+}
+
+
+/* whywe_section */
+
+.whywe_section {
+    background: #000;
+    color: #fff;
+    padding-bottom: 41px;
+}
+
+.whywe_wrapper {
+    background: url(../img/whywe.png);
+    min-height: 629px;
+}
+
+.whywe_section h2 {
+    margin-top: 27px;
+    margin-bottom: 23px;
+}
+
+.whywe_section h4 {
+    font-family: 'Aero Matics Stencil';
+    font-size: 1.250em;
+    margin-bottom: 7px;
+}
+
+.whywe_section p {
+    font-family: 'HelveticaNeueCyr';
+    font-weight: 100;
+    font-size: 1em;
+    line-height: 1.2;
+}
+
+.first_block {
+    padding-top: 91px;
+    padding-right: 55px;
+}
+
+.second_block {
+    padding-top: 91px;
+    padding-left: 23px;
+    padding-right: 150px;
+}
+
+.last_block {
+    padding-top: 197px;
+    padding-left: 6px;
+    padding-right: 55px;
+}
+
+.master_section {
+    color: #000;
+    background: #fff;
+}
+
+.master_section h2 {
+    margin-top: 27px;
+    margin-bottom: 26px;
+}
+
+.master_section .whywe_wrapper {
+    background-image: none;
+}
+
+.master_wrapper .col-lg-4 {
+    padding: 0;
+}
+
+.abs_master {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding-top: 23.5%;
+}
+
+.abs_master h2 {
+    color: #fff;
+    font-size: 1.5em;
+    margin-bottom: 4px;
+}
+
+.abs_master .green_button {
+    font-size: 1.250em;
+    padding: 6px 37px;
+}
+
+.last_master {
+    opacity: 1;
+}
+
+
+/* footer */
+
+footer {
+    background: #000;
+    font-family: 'Aero Matics Stencil';
+    color: #fff;
+    text-align: center;
+    padding-top: 37px;
+    padding-bottom: 19px;
+    font-size: 1.250em;
+    border-bottom: 2px solid #569b74;
+}
+
+footer a {
+    color: #fff;
+}
+
+footer a:hover {
+    color: #569b74;
+    text-decoration: none;
+}
+
+.footer_ul {
+    padding: 0;
+    margin: 0 0 18px 0;
+    list-style: none;
+}
+
+.footer_ul li {
+    display: inline-block;
+    padding: 0 13px;
+}
+
+footer p {
+    margin-bottom: 26px;
+    line-height: 1.2;
+}
+
+.img_fp {
+    margin-bottom: 17px;
+}
+
+.social_links {}
+
+.social_links li {
+    background: #fff;
+    border-radius: 50%;
+    height: 31px;
+    width: 31px;
+    text-align: center;
+    padding: 0;
+    margin: 0 4px;
+}
+
+.social_links li a {
+    color: #000;
+    font-size: .938em;
+}
+
+.social_links li:hover {
+    background: #569b74;
 }
