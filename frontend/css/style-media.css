@@ -50,6 +50,67 @@
         margin-top: 30px;
         margin-bottom: 30px;
     }
+    .table_row {
+        text-align: center;
+    }
+    .first_block {
+        padding-left: 15px;
+        padding-right: 15px;
+        text-align: center;
+    }
+    .second_block {
+        padding-left: 15px;
+        padding-right: 15px;
+        text-align: center;
+    }
+    .last_block {
+        padding-left: 15px;
+        padding-right: 15px;
+        text-align: center;
+    }
+    .wrapper_table p {
+        text-align: center;
+        padding-left: 0;
+    }
+    .table_first_col {
+        font-weight: 700;
+    }
+    p.table_first_col {
+        color: #000;
+        padding-bottom: 0;
+    }
+    
+    /**/
+    .whywe_wrapper {
+        background: url(../img/whywe2.png);
+        background-size: cover;
+            
+    }
+    
+    .whywe_section {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+    .container.whywe_wrapper {
+        width: 100%;
+        padding: 0;
+    }
+    .last_block {
+        padding-top:100px;
+    }
+    .abs_master {
+        display: none;
+    }
+    .master_wrapper img {
+        width: 100%;
+    }
+    .whywe_wrapper.master_wrapper {
+        min-height: auto;
+    }
+    .small_abs.abs_master {
+        display: block;
+    }
 }
 
 
