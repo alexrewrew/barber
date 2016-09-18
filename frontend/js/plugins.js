@@ -23,7 +23,7 @@ $(document).ready(function () {
         autoplay:true,
         slides: [
             {
-                src: "frontend/img/jumbo-slider/jumbo1.png"
+                src: "frontend/img/jumbo-slider/main.jpg"
             }
             // , {
             //     src: "frontend/img/jumbo-slider/jumbo2.jpg"
