@@ -58,7 +58,6 @@ a:focus {}
 
 a,
 .transition,
-img,
 .social_links li,
 .green_button {
     -webkit-transition: all 0.4s ease;
@@ -204,7 +203,7 @@ img,
 
 .navbar-default .navbar-nav>li>a.green_button {
     padding: 8px 37px;
-    margin: 24px 0 24px 13px;
+    margin: 24px 15px 24px 13px;
 }
 
 .navbar-brand {
@@ -325,7 +324,6 @@ img,
 .wrapper_table {
     padding-left: 30px;
     padding-right: 30px;
-    padding-top: 64px;
 }
 
 .wrapper_table p {
@@ -366,10 +364,15 @@ p.table_header {
 }
 
 a.line_link {
-    margin-top: 49px;
-    margin-bottom: 53px;
+    /*margin-top: 49px;*/
+    margin-bottom: 20px;
     font-size: 1.25em;
     padding: 3px 37px;
+}
+
+a.line_link:hover {
+    color: #fff;
+    background: #488366;
 }
 
 
@@ -452,7 +455,7 @@ a.line_link {
     color: #fff;
     font-size: 1.125em;
     letter-spacing: 0.9px;
-    margin-bottom: 4px;
+    margin-bottom: 10px;
     text-transform: lowercase;
 }
 
@@ -602,3 +605,52 @@ footer p {
     font-weight: bold;
     font-size: 24px;
 }
+
+
+
+
+/* ==========================================================================
+Testimonials Style
+========================================================================== */
+
+
+#whywe_section{
+    color: #fff;
+    min-height: 500px;
+    padding: 0px 30px 0px 30px;
+}
+
+
+#whywe_section h2{
+    font-size: 30px;
+    padding-top: 180px;
+}
+
+
+/* ==========================================================================
+Work Process Style
+========================================================================== */
+#work-process {
+    padding: 30px 0px 50px 0px;
+    text-align: center;
+}
+
+#masters{
+    color: #fff;
+    background: #000;
+}
+/*#work-process .col-lg-3 {*/
+    /*margin-top: 40px;*/
+/*}*/
+/*#work-process h2 {*/
+    /*!*text-transform: uppercase;*!*/
+/*}*/
+/*#work-process h4 {*/
+    /*text-transform: uppercase;*/
+    /*color: #0d0d0d;*/
+/*}*/
+/*#work-process span {*/
+    /*font-size: 48px;*/
+    /*color: #0d0d0d;*/
+    /*margin-bottom: 15px;*/
+/*}*/
