@@ -1,7 +1,21 @@
-body{
+body {
     background: url("../img/razor.png") right top no-repeat #efefef !important;
 }
 
-.page-404{
-    padding-top:6%;
+.page-404 {
+    padding-top: 9.5%;
+}
+
+h2 {
+    font-size: 1.53em;
+    font-weight: bold;
+    margin-top: 19px;
+    margin-bottom: 28px;
+    line-height: 1.2;
+    color: #000;
+}
+
+.green_button_lg {
+    margin-top: 36px;
+    padding: 6px 33px;
 }

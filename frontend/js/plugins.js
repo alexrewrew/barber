@@ -1,21 +1,6 @@
 $(document).ready(function () {
-    $('.fancybox').fancybox({});
-});
-$(document).ready(function () {
-    /* sumo slect plugin */
-    $('.search_select').SumoSelect({
-        search: true
-        , searchText: 'Поиск...'
-    });
-    $('.sumo-select').SumoSelect({});
     $('.select2').select2({
         minimumResultsForSearch: Infinity
-    });
-    /* iCheck plugin */
-    $('.icheck_input').iCheck({
-        checkboxClass: 'icheckbox_square'
-        , radioClass: 'iradio_square'
-        , increaseArea: '20%' // optional
     });
 });
 $(document).ready(function () {
@@ -44,7 +29,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
 
-    $(function () {
+    /*$(function () {
         $('a.page-scroll').bind('click', function (event) {
             var $anchor = $(this);
             $('html, body').stop().animate({
@@ -52,7 +37,11 @@ $(document).ready(function () {
             }, 1000, 'easeInOutExpo');
             event.preventDefault();
         });
-    });
+    });*/
+    
+    
+    
+    
 
     $('body').scrollspy({
         target: '.navbar-fixed-top',
@@ -63,4 +52,39 @@ $(document).ready(function () {
 
     new WOW().init();
 });
+
+$(document).ready(function () {
+     $(document).on("scroll", onScroll);
+     $('.page-scroll').on('click', function (e) {
+         e.preventDefault();
+         $(document).off("scroll");
+         $('.page-scroll').each(function () {
+             $(this).removeClass('active');
+         })
+         $(this).addClass('active');
+         var target = this.hash;
+         $target = $(target);
+         $('html, body').stop().animate({
+             'scrollTop': $target.offset().top + 2
+         }, 500, 'swing', function () {
+             window.location.hash = target;
+             $(document).on("scroll", onScroll);
+         });
+     });
+ });
+
+ function onScroll(event) {
+     var scrollPosition = $(document).scrollTop();
+     $('.scrolll a').each(function () {
+         var currentLink = $(this);
+         var refElement = $(currentLink.attr("href"));
+         if (refElement.position().top - 40 <= scrollPosition && refElement.position().top + refElement.height() > scrollPosition) {
+             $('.scrolll a').removeClass("active");
+             currentLink.addClass("active");
+         }
+         else {
+             currentLink.removeClass("active");
+         }
+     });
+ }
 

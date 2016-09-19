@@ -1,6 +1,11 @@
 /* Extra small devices (phones, less than 768px) */
 
 @media screen and (max-width: 767px) {
+    /* 404 */
+    .page-404 h2 {
+        font-size: 1.125em;
+    }
+    /* */
     body {
         padding: 0;
     }
@@ -27,6 +32,9 @@
         margin-top: 5px;
     }
     .navbar-default .navbar-header {
+        text-align: center;
+    }
+    .navbar-nav {
         text-align: center;
     }
     /*jumbo */
@@ -79,25 +87,21 @@
         color: #000;
         padding-bottom: 0;
     }
-    
     /**/
     .whywe_wrapper {
         background: url(../img/whywe2.png);
         background-size: cover;
-            
     }
-    
     .whywe_section {
         padding-left: 0;
         padding-right: 0;
     }
-    
     .container.whywe_wrapper {
         width: 100%;
         padding: 0;
     }
     .last_block {
-        padding-top:100px;
+        padding-top: 100px;
     }
     .abs_master {
         display: none;

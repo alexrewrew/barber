@@ -59,7 +59,8 @@ a:focus {}
 a,
 .transition,
 img,
-.social_links li {
+.social_links li,
+.green_button {
     -webkit-transition: all 0.4s ease;
     -moz-transition: all 0.4s ease;
     -o-transition: all 0.4s ease;
@@ -120,7 +121,6 @@ img,
 
 /* button */
 
-
 .green_button {
     background: #569b74;
     border-radius: 5px;
@@ -132,7 +132,7 @@ img,
     display: inline-block;
 }
 
-.green_button_lg{
+.green_button_lg {
     background: #569b74;
     border-radius: 5px;
     padding: 8px 37px;
@@ -144,10 +144,11 @@ img,
     margin-top: 60px;
 }
 
-.text-uppercase{
+.text-uppercase {
     text-transform: uppercase;
 }
-.text-green{
+
+.text-green {
     color: #427658;
 }
 
@@ -155,7 +156,7 @@ img,
 .green_button:focus,
 .navbar-default .navbar-nav>li>a.green_button:hover,
 .navbar-default .navbar-nav>li>a.green_button:focus {
-    background: #fff;
+    background: #ecf0f1;
     color: #427658;
     text-decoration: none;
 }
@@ -210,22 +211,45 @@ img,
     padding: 9px 17px 5px 10px;
 }
 
-.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.open>a{
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.open>a {
     background: transparent;
     color: #569b74;
 }
 
-.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.open>a:active{
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.open>a:active {
     background: transparent;
     color: #569b74;
 }
+
+
 /*.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.open>a:focus{*/
-    /*background: transparent;*/
-    /*color: #569b74;*/
+
+
+/*background: transparent;*/
+
+
+/*color: #569b74;*/
+
+
 /*}*/
-.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
     background: transparent;
     color: #569b74;
+}
+
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+    background: #ecf0f1;
+}
+
+.navbar-default .navbar-toggle:hover .icon-bar,
+.navbar-default .navbar-toggle:focus .icon-bar {
+    background: #000;
 }
 
 
@@ -424,15 +448,17 @@ a.line_link {
     padding-top: 23.5%;
 }
 
-.abs_master h2 {
+.portfolio-box-caption h2 {
     color: #fff;
-    font-size: 1em;
+    font-size: 1.125em;
+    letter-spacing: 0.9px;
     margin-bottom: 4px;
+    text-transform: lowercase;
 }
 
-.abs_master .green_button {
+.portfolio-box-caption .green_button {
     font-size: 1.250em;
-    padding: 6px 37px;
+    padding: 4px 39px;
 }
 
 .last_master {
@@ -500,5 +526,42 @@ footer p {
 }
 
 .social_links li:hover {
-    background: #569b74;
+    background: transparent;
+}
+
+.social_links li:hover a {
+    color: #fff;
+}
+
+
+/* new version */
+
+.first_box {
+    background: url("../../img/sec1.png");
+    background-size: cover;
+    min-height: 314px;
+    padding-top: 91px;
+    padding-left: 90px;
+}
+
+.second_box {
+    background: url("../../img/sec2.png");
+    background-size: cover;
+    min-height: 314px;
+    padding-top: 91px;
+    padding-left: 90px;
+}
+
+.third_box {
+    background: url("../../img/sec3.png");
+    background-size: cover;
+    min-height: 314px;
+}
+
+.fourth_box {
+    background: url("../../img/sec4.png");
+    background-size: cover;
+    min-height: 314px;
+    padding-top: 91px;
+    padding-left: 90px;
 }
