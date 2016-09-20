@@ -115,20 +115,20 @@
     .small_abs.abs_master {
         display: block;
     }
-
-
-
-    #whywe_section p{
+    #whywe_section p {
         line-height: 20px;
         font-size: 14px;
     }
-
-    #whywe_section h2{
+    #whywe_section h2 {
         font-size: 30px;
         padding-top: 80px;
     }
-
-
+    #whywe_section {
+        min-height: 550px;
+    }
+    .barboss_right {
+        padding-left: 15px;
+    }
 }
 
 
@@ -150,34 +150,28 @@
         padding-left: 15px;
         padding-right: 255px;
     }
-
-    #whywe_section p{
+    #whywe_section p {
         line-height: 20px;
         font-size: 16px;
     }
-
-    #whywe_section h2{
+    #whywe_section h2 {
         font-size: 30px;
         padding-top: 130px;
     }
-
 }
 
 
 /* Medium devices (desktops, 992px and up) */
 
 @media (min-width:992px) and (max-width: 1200px) {
-
     /*#whywe_section p{*/
-        /*line-height: 20px;*/
-        /*font-size: 16px;*/
+    /*line-height: 20px;*/
+    /*font-size: 16px;*/
     /*}*/
-
     /*#whywe_section h2{*/
-        /*font-size: 30px;*/
-        /*padding-top: 160px;*/
+    /*font-size: 30px;*/
+    /*padding-top: 160px;*/
     /*}*/
-
     .abs_master {
         padding-top: 25%;
     }
