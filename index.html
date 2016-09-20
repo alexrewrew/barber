@@ -2,21 +2,11 @@
 <html lang="ru">
 
 <head>
+    <title>barbershop barboss</title>
     <!-- meta tags -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="keywords" content="">
-    <meta name="classification" content="">
-    <meta name="robots" content="noindex">
-    <meta name="rating" content="GENERAL">
-    <!-- ogp tags -->
-    <meta property="og:title" content="Template">
-    <meta property="og:type" content="site">
-    <meta property="og:url" content="http://www.project.com">
-    <meta property="og:image" content="http://http://www.project.com/ogp.jpg">
-    <title>Barboss барбершоп</title>
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/png" href="">
     <!-- Fonts -->
@@ -25,7 +15,16 @@
     <link rel="stylesheet" type="text/css" href="frontend/plugins/font-awesome/css/font-awesome.min.css">
     <!-- jQuery -->
     <script type="text/javascript" src="frontend/plugins/jquery/jquery-3.1.0.min.js"></script>
-    <!-- Bootstrap -->
+    <!--&lt;!&ndash; Bootstrap &ndash;&gt;-->
+    <!--&lt;!&ndash; Latest compiled and minified CSS &ndash;&gt;-->
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">-->
+
+    <!--&lt;!&ndash; Optional theme &ndash;&gt;-->
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">-->
+
+    <!--&lt;!&ndash; Latest compiled and minified JavaScript &ndash;&gt;-->
+    <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>-->
+
     <link rel="stylesheet" type="text/css" href="frontend/plugins/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="frontend/plugins/bootstrap/css/bootstrap-theme.min.css">
     <script type="text/javascript" src="frontend/plugins/bootstrap/js/bootstrap.min.js"></script>
@@ -359,13 +358,25 @@
 
 
     <div id="whywe_section" class="parallax-window text-center">
-        <h2>barboss basic</h2>
-        <p>
-            Это aтмосфeрный бaрбeршоп в цeнтрe Киeвa; цирюльня в клaссичeском смыслe словa. Это нe пaрикмaхeрскaя или сaлон крaсоты.
-            <br>
-            Это мeсто, нeпохожee ни нa одно, гдe вы были рaнee. Зaйдя внутрь, у вaс порвутся многиe шaблоны. <br>
-            Вы удивитeсь, что о вaшeм внeшнeм видe бeспокоитeсь нe только вы, но и мaстeр.
-        </p>
+        <div id="barbos_basic">
+            <h2>barboss basic</h2>
+            <p>
+                Первый барбершоп в сети brbs, который находиться по ул. Б. Хмельницкого, 47. <br>
+                Именно при создании этого барбершопа было принято решение отойти от какой-либо субкультурности и <br>
+                создать в первую очередь комфортное место для каждого мужчины, который нуждается в поддержании своего уникального стиля. <br>
+                Данное решение послужило отличной платформой для дальнейшего вектора развития barbershop barboss и сегодня, <br>
+                мы – комбинация важных констант, которые формируют уникальную атмосферу при посещении нашего барбершопа.
+            </p>
+        </div>
+        <div id="barbos_premium" style="display: none;">
+            <h2>barboss premium</h2>
+            <p>
+                Новый барбершоп в семье brbs, который располагается по ул. Владимирская, 4. <br>
+                При создании, которого мы попытались поставить планку еще выше и попытаться все-таки ее достичь. <br>
+                Что из этого получилось, вы сможете увидеть в самое ближайшее время. А пока следите за анонсами в наших социальных сетях. <br>
+                Ведь открытие coming soon.
+            </p>
+        </div>
     </div>
 
 
@@ -377,17 +388,19 @@
             <div class="row wow fadeInUp" data-wow-delay=".3s">
                 <div class="col-lg-4">
                     <img src="frontend/img/services/1.png" alt="">
-                    <h4>Высокопрофессиональная <br>
-                        команда барберов</h4>
+                    <p>
+                        Каждый участник команды, по умолчанию, делает - как для себя
+                    </p>
                 </div>
                 <div class="col-lg-4">
                     <img src="frontend/img/services/2.png" alt="">
-                    <h4>Качественный сервис</h4>
+                    <p>Делаем все услуги, в соответствии к мировым стандартам и нормам</p>
                 </div>
                 <div class="col-lg-4">
                     <img src="frontend/img/services/3.png" alt="">
-                    <h4>Атмосферрный дизайн <br>
-                        интерьера</h4>
+                    <p>
+                        Комфортабельная атмосфера внутри, создает только положительное впечатление
+                        </p>
                 </div>
             </div>
         </div>
@@ -404,7 +417,7 @@
     <section id="portfolio">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay=".3s">
+                <div class="col-lg-4 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay=".3s">
                     <a class="portfolio-box ms_booking" href="frontend/img/masters/01.png" data-lightbox="image-1" data-title="Your caption"> <img width="100%" src="frontend/img/masters/01.png" class="img-responsive" alt="1">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
@@ -415,7 +428,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay=".3s">
+                <div class="col-lg-4 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay=".3s">
                     <a class="portfolio-box ms_booking" href="frontend/img/masters/02.png" data-lightbox="image-1" data-title="Your caption"> <img width="100%" src="frontend/img/masters/08.png" class="img-responsive" alt="1">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
@@ -426,18 +439,18 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay=".3s">
+                <div class="col-lg-4 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay=".3s">
                     <a class="portfolio-box ms_booking" href="frontend/img/masters/03.png" data-lightbox="image-1" data-title="Your caption"> <img width="100%" src="frontend/img/masters/03.png" class="img-responsive" alt="1">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
-                                    <h2>baldbarber</h2> </div>
+                                    <h2>валентин baldbarber</h2> </div>
                                 <div class="project-name"> <span class="green_button ms_booking">записаться</span> </div>
                             </div>
                         </div>
                     </a>
                 </div>
-                <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay=".3s">
+                <div class="col-lg-4 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay=".3s">
                     <a class="portfolio-box ms_booking" href="img/portfolio/1.jpg" data-lightbox="image-1" data-title="Your caption"> <img width="100%" src="frontend/img/masters/07.png" class="img-responsive" alt="1">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
@@ -448,7 +461,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay=".3s">
+                <div class="col-lg-4 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay=".3s">
                     <a href="frontend/img/masters/05.png" class="portfolio-box ms_booking" data-lightbox="image-2" data-title="Your caption"> <img width="100%" src="frontend/img/masters/05.png" class="img-responsive" alt="2">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
@@ -459,7 +472,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay=".3s">
+                <div class="col-lg-4 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay=".3s">
                     <a href="frontend/img/masters/08.png" class="portfolio-box ms_booking" data-lightbox="image-3" data-title="Your caption"> <img width="100%" src="frontend/img/masters/06.png" class="img-responsive" alt="3">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
@@ -470,7 +483,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay=".3s">
+                <div class="col-lg-4 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay=".3s">
                     <a href="frontend/img/masters/08.png" class="portfolio-box ms_booking" data-lightbox="image-4" data-title="Your caption"> <img width="100%" src="frontend/img/masters/04.png" class="img-responsive" alt="4">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
@@ -481,7 +494,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay=".3s">
+                <div class="col-lg-4 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay=".3s">
                     <a href="frontend/img/masters/08.png" class="portfolio-box ms_booking" data-lightbox="image-5" data-title="Your caption"> <img width="100%" src="frontend/img/masters/02.png" class="img-responsive" alt="5">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
@@ -492,7 +505,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay=".3s">
+                <div class="col-lg-4 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay=".3s">
                     <a href="404.html" class="portfolio-box" data-lightbox="image-6" data-title="Your caption"> <img width="100%" src="frontend/img/masters/09.png" class="img-responsive" alt="6">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
@@ -523,7 +536,7 @@
                     <a href="tel:+380734381316">+38 (073) 438 13 16</a></p>
 
                 <p class="img_fp"><img src="frontend/img/logo.png" alt=""></p>
-                <p>территория для мужчин
+                <p>Когда детали имеют значение
                     <br>barboss 2016</p>
                 <ul class="footer_ul social_links">
                     <li><a href="https://www.facebook.com/Barboss-475842842583455/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
