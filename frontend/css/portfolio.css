@@ -21,6 +21,10 @@ Portfolio Style
     /*text-transform: uppercase;*/
 }
 
+.project-category h2 {
+    margin-top: 20px;
+}
+
 #portfolio p {
     margin-bottom: 40px;
 }

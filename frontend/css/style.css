@@ -364,7 +364,7 @@ p.table_header {
 }
 
 a.line_link {
-    /*margin-top: 49px;*/
+    margin-top: 30px;
     margin-bottom: 20px;
     font-size: 1.25em;
     padding: 3px 37px;
@@ -635,6 +635,10 @@ Work Process Style
     text-align: center;
 }
 
+#work-process h2{
+        margin-top: 20px;
+}
+
 #masters{
     color: #fff;
     background: #000;
@@ -654,3 +658,68 @@ Work Process Style
     /*color: #0d0d0d;*/
     /*margin-bottom: 15px;*/
 /*}*/
+
+
+.barber-select{
+    cursor: pointer;
+}
+
+
+
+/* ==========================================================================
+Testimonials Style
+========================================================================== */
+#testimonials {
+    background-image: url("../img/testimonials/basic.jpg");
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 60px 0;
+    text-align: center;
+}
+#testimonials h2 {
+    text-transform: uppercase;
+    color: #fff;
+}
+#testimonials p {
+    color: #fff;
+}
+#testimonials .item .quote {
+    margin: 20px auto;
+    width: 80%;
+}
+#testimonials .item .quote .right {
+    margin-left: 40px;
+    font-size: 32px;
+    color: #fff;
+}
+#testimonials .item .quote .left {
+    float: left;
+    margin-right: 40px;
+    color: #fff;
+}
+#testimonials .item h5 {
+    color: #fff;
+    line-height: 36px;
+}
+#testimonials .item h5 span {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+#testimonials .owl-pagination .owl-page.active span {
+    background-color: #fff;
+}
+#testimonials .owl-pagination .owl-page span {
+    border: 2px solid #fff;
+    border-radius: 50%;
+    background: transparent;
+    opacity: 1;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}

@@ -29,18 +29,18 @@ $(document).ready(function () {
 
 $(document).ready(function () {
 
-    $(function () {
-        $('a.page-scroll').bind('click', function (event) {
-            var $anchor = $(this);
-            $('html, body').stop().animate({
-                scrollTop: $($anchor.attr('href')).offset().top
-            }, 1000, 'easeInOutExpo');
-            event.preventDefault();
-        });
-    });
+    // $(function () {
+    //     $('a.page-scroll').bind('click', function (event) {
+    //         var $anchor = $(this);
+    //         $('html, body').stop().animate({
+    //             scrollTop: $($anchor.attr('href')).offset().top
+    //         }, 1000, 'easeInOutExpo');
+    //         event.preventDefault();
+    //     });
+    // });
 
 
-    $('.parallax-window').parallax({imageSrc: 'frontend/img/testimonials.jpg'});
+    $('.parallax-window').parallax({imageSrc: 'frontend/img/testimonials/basic.jpg'});
     
 
     $('body').scrollspy({
@@ -53,38 +53,38 @@ $(document).ready(function () {
     new WOW().init();
 });
 //
-// $(document).ready(function () {
-//      $(document).on("scroll", onScroll);
-//      $('.page-scroll').on('click', function (e) {
-//          e.preventDefault();
-//          $(document).off("scroll");
-//          $('.page-scroll').each(function () {
-//              $(this).removeClass('active');
-//          })
-//          $(this).addClass('active');
-//          var target = this.hash;
-//          $target = $(target);
-//          $('html, body').stop().animate({
-//              'scrollTop': $target.offset().top + 2
-//          }, 500, 'swing', function () {
-//              window.location.hash = target;
-//              $(document).on("scroll", onScroll);
-//          });
-//      });
-//  });
-//
-//  function onScroll(event) {
-//      var scrollPosition = $(document).scrollTop();
-//      $('.scrolll a').each(function () {
-//          var currentLink = $(this);
-//          var refElement = $(currentLink.attr("href"));
-//          if (refElement.position().top - 40 <= scrollPosition && refElement.position().top + refElement.height() > scrollPosition) {
-//              $('.scrolll a').removeClass("active");
-//              currentLink.addClass("active");
-//          }
-//          else {
-//              currentLink.removeClass("active");
-//          }
-//      });
-//  }
+$(document).ready(function () {
+     $(document).on("scroll", onScroll);
+     $('.page-scroll').on('click', function (e) {
+         e.preventDefault();
+         $(document).off("scroll");
+         $('.page-scroll').each(function () {
+             $(this).removeClass('active');
+         })
+         $(this).addClass('active');
+         var target = this.hash;
+         $target = $(target);
+         $('html, body').stop().animate({
+             'scrollTop': $target.offset().top + 2
+         }, 500, 'swing', function () {
+             window.location.hash = target;
+             $(document).on("scroll", onScroll);
+         });
+     });
+ });
+
+ function onScroll(event) {
+     var scrollPosition = $(document).scrollTop();
+     $('.scrolll a').each(function () {
+         var currentLink = $(this);
+         var refElement = $(currentLink.attr("href"));
+         if (refElement.position().top - 40 <= scrollPosition && refElement.position().top + refElement.height() > scrollPosition) {
+             $('.scrolll a').removeClass("active");
+             currentLink.addClass("active");
+         }
+         else {
+             currentLink.removeClass("active");
+         }
+     });
+ }
 //

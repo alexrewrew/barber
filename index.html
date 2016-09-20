@@ -16,7 +16,7 @@
     <meta property="og:type" content="site">
     <meta property="og:url" content="http://www.project.com">
     <meta property="og:image" content="http://http://www.project.com/ogp.jpg">
-    <title>brbs</title>
+    <title>Barboss барбершоп</title>
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/png" href="">
     <!-- Fonts -->
@@ -38,9 +38,9 @@
     <!-- Animate -->
     <link rel="stylesheet" type="text/css" href="frontend/plugins/animate/animate.css">
     <!-- Sliders -->
-    <script type="text/javascript" src="frontend/js/sliders.js"></script>
+    <!--<script type="text/javascript" src="frontend/js/sliders.js"></script>-->
     <!-- Scroll -->
-    <script type="text/javascript" src="frontend/js/scrolling.js"></script>
+    <!--<script type="text/javascript" src="frontend/js/scrolling.js"></script>-->
     <script type="text/javascript" src="frontend/plugins/WOW/dist/wow.js"></script>
     <script type="text/javascript" src="frontend/plugins/jquery.easing.min.js"></script>
     <!-- Main scripts -->
@@ -57,6 +57,19 @@
     <script src="frontend/plugins/html5shiv/html5shiv.min.js"></script>
     <script src="frontend/plugins/respond/respond.min.js"></script>
     <![endif]-->
+
+    <script type='text/javascript'>
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-73948059-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+
 </head>
 
 <body>
@@ -123,7 +136,7 @@
         <div class="row">
             <div class="col-xs-2 col-sm-3 col-md-4 col-lg-4"></div>
             <div class="col-xs-4 col-sm-3 col-md-2 col-lg-2 text-right border_separator">
-                <h3 class="text-green">киев <span class="separator">|</span></h3></div>
+                <h3 class="text-green" data-barber="">киев <span class="separator">|</span></h3></div>
             <div class="col-xs-3 col-sm-2 col-md-3 col-lg-3">
                 <h3 class="additional_margin">одесса (coming soon)</h3> </div>
             <div class="col-xs-3 col-sm-4 col-md-4 col-lg-4"></div>
@@ -131,15 +144,18 @@
         <div class="row">
             <div class="hidden-xs col-sm-3 col-md-4 col-lg-4"></div>
             <div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 text-right border_separator">
-                <h3 class="text-green">barboss basic <span class="separator">|</span></h3></div>
+                <h3 class="text-green barber-select" data-barber="basic" data-img="frontend/img/testimonials/basic.jpg">barboss basic <span class="separator">|</span></h3></div>
             <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
-                <h3 class="additional_margin">barboss premium (coming soon)</h3> </div>
+                <h3 class="additional_margin barber-select" data-barber="premium" data-img="frontend/img/testimonials/premium.jpg">barboss premium (coming soon)</h3> </div>
             <div class="hidden-xs col-sm-3 col-md-3 col-lg-4"></div>
         </div>
-        <div class="row content_adress">
+
+
+        <div id="barbor-basic" class="row content_adress">
             <div class="col-sm-3 col-md-3 col-lg-3 barboss_left">
-                <h4>Barboss Premium</h4>
-                <p>Владимирская 56. Печерский р-н</p>
+                <h4>Barboss Basic</h4>
+                <p>Богдана Хмельницкого, 47. <br>
+                    Печерский р-н</p>
                 <p>График работы:
                     <br> Понедельник-пятница: с 10:00 до 21:00
                     <br> Суббота, воскресенье: с 11:00 до 21:00</p>
@@ -164,21 +180,23 @@
                             <p class="table_header">Под машинку</p>
                         </div>
                     </div>
+
                     <div class="row table_row">
                         <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
                             <p class="table_first_col">Стрижка</p>
                         </div>
                         <div class="col-xs-4 col-sm-3 col-md-3 col-lg-3">
+                            <p style="padding-bottom: 0px;">₴ 350</p>
                             <p class="hidden-sm hidden-md hidden-lg">Взрослая</p>
-                            <p>₴ 350</p>
                         </div>
                         <div class="col-xs-4 col-sm-3 col-md-3 col-lg-3">
+                            <p style="padding-bottom: 0px;">₴ 300</p>
                             <p class="hidden-sm hidden-md hidden-lg">Детская</p>
-                            <p>₴ 300</p>
                         </div>
                         <div class="col-xs-4 col-sm-2 col-md-2 col-lg-2 table_last_col">
-                            <p class="hidden-sm hidden-md hidden-lg">Под машинку</p>
-                            <p>₴ 150</p>
+                            <p style="padding-bottom: 0px;">₴ 150</p>
+                            <p class="hidden-sm hidden-xs hidden-md hidden-lg">Под машинку</p>
+                            <p class="hidden-sm hidden-md hidden-lg">Машинка</p>
                         </div>
                     </div>
                     <div class="row table_row">
@@ -186,16 +204,17 @@
                             <p class="table_first_col">Борода</p>
                         </div>
                         <div class="col-xs-4 col-sm-3 col-md-3 col-lg-3">
+                            <p style="padding-bottom: 0px;">₴ 200</p>
                             <p class="hidden-sm hidden-md hidden-lg">Взрослая</p>
-                            <p>₴ 200</p>
                         </div>
                         <div class="col-xs-4 col-sm-3 col-md-3 col-lg-3">
+                            <p style="padding-bottom: 0px;">-</p>
                             <p class="hidden-sm hidden-md hidden-lg">Детская</p>
-                            <p>-</p>
                         </div>
                         <div class="col-xs-4 col-sm-2 col-md-2 col-lg-2 table_last_col">
-                            <p class="hidden-sm hidden-md hidden-lg">Под машинку</p>
-                            <p>₴ 150</p>
+                            <p style="padding-bottom: 0px;">₴ 150</p>
+                            <p class="hidden-sm hidden-xs hidden-md hidden-lg">Под машинку</p>
+                            <p class="hidden-sm hidden-md hidden-lg">Машинка</p>
                         </div>
                     </div>
                     <div class="row table_row">
@@ -203,16 +222,17 @@
                             <p class="table_first_col">Укладка</p>
                         </div>
                         <div class="col-xs-4 col-sm-3 col-md-3 col-lg-3">
+                            <p style="padding-bottom: 0px;">₴ 150</p>
                             <p class="hidden-sm hidden-md hidden-lg">Взрослая</p>
-                            <p>₴ 150</p>
                         </div>
                         <div class="col-xs-4 col-sm-3 col-md-3 col-lg-3">
+                            <p style="padding-bottom: 0px;">₴ 100</p>
                             <p class="hidden-sm hidden-md hidden-lg">Детская</p>
-                            <p>₴ 100</p>
                         </div>
                         <div class="col-xs-4 col-sm-2 col-md-2 col-lg-2 table_last_col">
-                            <p class="hidden-sm hidden-md hidden-lg">Под машинку</p>
-                            <p>-</p>
+                            <p style="padding-bottom: 0px;">-</p>
+                            <p class="hidden-sm hidden-xs hidden-md hidden-lg">Под машинку</p>
+                            <p class="hidden-sm hidden-md hidden-lg">Машинка</p>
                         </div>
                     </div>
                     <div class="row last_row">
@@ -220,6 +240,101 @@
                     </div>
                 </div>
             </div>
+
+
+        </div>
+
+        <div id="barbor-premium" style="display: none;" class="row content_adress">
+            <div class="col-sm-3 col-md-3 col-lg-3 barboss_left">
+                <h4>Barboss Premium</h4>
+                <p>Владимирская 4. <br>
+                    Подольский р-н</p>
+                <p>График работы:
+                    <br> Понедельник-пятница: с 10:00 до 21:00
+                    <br> Суббота, воскресенье: с 11:00 до 21:00</p>
+                <p>Телефон:
+                    <br> +38 (098) 778 13 16;
+                    <br> +38 (073) 438 13 16;</p>
+                <!--<p class="noun_img hidden-xs"><img src="frontend/img/noun.png" alt=""></p>-->
+            </div>
+            <div class="col-sm-9 col-md-9 col-lg-9 barboss_right">
+                <div class="row wrapper_table">
+                    <div class="row table_row hidden-xs">
+                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                            <p class="table_header table_first_col">Наименование услуги</p>
+                        </div>
+                        <div class="col-xs-4 col-sm-3 col-md-3 col-lg-3">
+                            <p class="table_header">Взрослая</p>
+                        </div>
+                        <div class="col-xs-4 col-sm-3 col-md-3 col-lg-3">
+                            <p class="table_header">Детская</p>
+                        </div>
+                        <div class="col-xs-4 col-sm-2 col-md-2 col-lg-2 table_last_col">
+                            <p class="table_header">Под машинку</p>
+                        </div>
+                    </div>
+
+                    <div class="row table_row">
+                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                            <p class="table_first_col">Стрижка</p>
+                        </div>
+                        <div class="col-xs-4 col-sm-3 col-md-3 col-lg-3">
+                            <p style="padding-bottom: 0px;">₴ 500</p>
+                            <p class="hidden-sm hidden-md hidden-lg">Взрослая</p>
+                        </div>
+                        <div class="col-xs-4 col-sm-3 col-md-3 col-lg-3">
+                            <p style="padding-bottom: 0px;">₴ 400</p>
+                            <p class="hidden-sm hidden-md hidden-lg">Детская</p>
+                        </div>
+                        <div class="col-xs-4 col-sm-2 col-md-2 col-lg-2 table_last_col">
+                            <p style="padding-bottom: 0px;">₴ 300</p>
+                            <p class="hidden-sm hidden-xs hidden-md hidden-lg">Под машинку</p>
+                            <p class="hidden-sm hidden-md hidden-lg">Машинка</p>
+                        </div>
+                    </div>
+                    <div class="row table_row">
+                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                            <p class="table_first_col">Борода</p>
+                        </div>
+                        <div class="col-xs-4 col-sm-3 col-md-3 col-lg-3">
+                            <p style="padding-bottom: 0px;">₴ 300</p>
+                            <p class="hidden-sm hidden-md hidden-lg">Взрослая</p>
+                        </div>
+                        <div class="col-xs-4 col-sm-3 col-md-3 col-lg-3">
+                            <p style="padding-bottom: 0px;">-</p>
+                            <p class="hidden-sm hidden-md hidden-lg">Детская</p>
+                        </div>
+                        <div class="col-xs-4 col-sm-2 col-md-2 col-lg-2 table_last_col">
+                            <p style="padding-bottom: 0px;">₴ 200</p>
+                            <p class="hidden-sm hidden-xs hidden-md hidden-lg">Под машинку</p>
+                            <p class="hidden-sm hidden-md hidden-lg">Машинка</p>
+                        </div>
+                    </div>
+                    <div class="row table_row">
+                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                            <p class="table_first_col">Укладка</p>
+                        </div>
+                        <div class="col-xs-4 col-sm-3 col-md-3 col-lg-3">
+                            <p style="padding-bottom: 0px;">₴ 200</p>
+                            <p class="hidden-sm hidden-md hidden-lg">Взрослая</p>
+                        </div>
+                        <div class="col-xs-4 col-sm-3 col-md-3 col-lg-3">
+                            <p style="padding-bottom: 0px;">₴ 150</p>
+                            <p class="hidden-sm hidden-md hidden-lg">Детская</p>
+                        </div>
+                        <div class="col-xs-4 col-sm-2 col-md-2 col-lg-2 table_last_col">
+                            <p style="padding-bottom: 0px;">-</p>
+                            <p class="hidden-sm hidden-xs hidden-md hidden-lg">Под машинку</p>
+                            <p class="hidden-sm hidden-md hidden-lg">Машинка</p>
+                        </div>
+                    </div>
+                    <div class="row last_row">
+
+                    </div>
+                </div>
+            </div>
+
+
         </div>
 
         <div class="row">
@@ -228,6 +343,17 @@
         </div>
     </section>
 
+
+
+
+
+    <!--<section id="testimonials">-->
+        <!--<div class="container">-->
+            <!--<h2>Testimonials</h2>-->
+            <!--<hr class="light-sep">-->
+            <!--<p>What Clients Say About Us</p>-->
+        <!--</div>-->
+    <!--</section>-->
 
 
     <div id="whywe_section" class="parallax-window text-center">
@@ -379,6 +505,7 @@
             </div>
         </div>
     </section>
+
     <footer>
         <div class="container">
             <div class="col-lg-12">
@@ -387,19 +514,27 @@
                     <li><a href="404.html">о нас</a></li>
                     <li><a href="404.html">карьера</a></li>
                 </ul>
-                <p>+38 (098) 778 13 16
-                    <br>+38 (073) 438 13 16</p>
+                <p>
+                    <a href="tel:+380987781316">+38 (098) 778 13 16</a>
+
+                    <br>
+                    <a href="tel:+380734381316">+38 (073) 438 13 16</a></p>
+
                 <p class="img_fp"><img src="frontend/img/logo.png" alt=""></p>
                 <p>территория для мужчин
                     <br>barboss 2016</p>
                 <ul class="footer_ul social_links">
-                    <li><a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                    <li><a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                    <li><a href=""><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                    <li><a href="https://www.facebook.com/Barboss-475842842583455/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                    <li><a href="https://vk.com/barboss_kiev"><i class="fa fa-vk" aria-hidden="true"></i></a></li>
+                    <li><a href="https://www.instagram.com/barboss_kiev/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                    <!--<li><a href=""><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>-->
                 </ul>
             </div>
         </div>
     </footer>
+
+<script type="text/javascript" src="https://w11050.yclients.com/widgetJS" charset="UTF-8"></script>
+
 </body>
 
 </html>
