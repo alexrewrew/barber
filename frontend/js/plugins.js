@@ -44,13 +44,6 @@ $(document).ready(function () {
     });
     /***************** Wow.js ******************/
     new WOW().init();
-    
-    var $head = $("iframe").contents().find("head");
-    $head.append($("<link/>", {
-        rel: "stylesheet"
-        , href: "frontend/css/style.css"
-        , type: "text/css"
-    }));
 });
 //
 $(document).ready(function () {
