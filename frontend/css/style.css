@@ -129,6 +129,7 @@ a,
     font-family: 'Aero Matics Stencil';
     color: #fff;
     display: inline-block;
+    cursor: pointer;
 }
 
 .green_button_lg {
@@ -733,12 +734,19 @@ Testimonials Style
 }
 
 /* video */
-#video_jumbo {
+#jumbo_video {
     padding: 0;
 }
 
-#video_jumbo iframe {
+#jumbo_video video {
     width: 100%;
-    height:874px;
+}
+
+/*
+*/
+
+#portfolio .portfolio-box {
+    max-width:100% !important;
+    
 }
 
