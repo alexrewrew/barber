@@ -9,9 +9,11 @@ $(document).ready(function () {
 
         if ( type == 'basic')
         {
+            $('h2').html('barboss basic');
             $('#barbor-premium').hide();
             $('#barbor-basic').show();
         }else{
+            $('h2').html('barboss premium');
             $('#barbor-premium').show();
             $('#barbor-basic').hide();
         }
