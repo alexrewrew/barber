@@ -129,6 +129,9 @@
     .barboss_right {
         padding-left: 15px;
     }
+    .project-name {
+        display: none;
+    }
 }
 
 

@@ -580,7 +580,7 @@ footer p {
 .my_modal {
     background: #000;
     color: #fff;
-    padding:44px 64px;
+    padding: 44px 64px;
 }
 
 .h_comph {
@@ -605,79 +605,106 @@ footer p {
 .close_modal {
     position: absolute;
     color: #7a7971;
-    top:44px;
-    right:64px;
+    top: 44px;
+    right: 64px;
     font-weight: bold;
     font-size: 24px;
 }
-
-
 
 
 /* ==========================================================================
 Testimonials Style
 ========================================================================== */
 
-#whywe_section p{
+#whywe_section p {
     line-height: 30px;
     font-size: 18px;
 }
 
-#whywe_section h2{
+#whywe_section h2 {
     font-size: 30px;
     padding-top: 160px;
 }
 
-#whywe_section{
+#whywe_section {
     color: #fff;
     min-height: 500px;
     padding: 0px 30px 0px 30px;
 }
 
 
-
 /* ==========================================================================
 Work Process Style
 ========================================================================== */
+
 #work-process {
     padding: 30px 0px 80px 0px;
     text-align: center;
 }
 
-#work-process h2{
-        margin-top: 20px;
+#work-process h2 {
+    margin-top: 20px;
 }
 
-#masters{
+#masters {
     color: #fff;
     background: #000;
 }
+
+
 /*#work-process .col-lg-3 {*/
-    /*margin-top: 40px;*/
+
+
+/*margin-top: 40px;*/
+
+
 /*}*/
+
+
 /*#work-process h2 {*/
-    /*!*text-transform: uppercase;*!*/
+
+
+/*!*text-transform: uppercase;*!*/
+
+
 /*}*/
+
+
 /*#work-process h4 {*/
-    /*text-transform: uppercase;*/
-    /*color: #0d0d0d;*/
+
+
+/*text-transform: uppercase;*/
+
+
+/*color: #0d0d0d;*/
+
+
 /*}*/
+
+
 /*#work-process span {*/
-    /*font-size: 48px;*/
-    /*color: #0d0d0d;*/
-    /*margin-bottom: 15px;*/
+
+
+/*font-size: 48px;*/
+
+
+/*color: #0d0d0d;*/
+
+
+/*margin-bottom: 15px;*/
+
+
 /*}*/
 
-
-.barber-select{
+.barber-select {
     cursor: pointer;
 }
-
 
 
 /* ==========================================================================
 Testimonials Style
 ========================================================================== */
+
 #testimonials {
     background-image: url("../img/testimonials/basic.jpg");
     -moz-background-size: cover;
@@ -690,38 +717,47 @@ Testimonials Style
     padding: 60px 0;
     text-align: center;
 }
+
 #testimonials h2 {
     text-transform: uppercase;
     color: #fff;
 }
+
 #testimonials p {
     color: #fff;
 }
+
 #testimonials .item .quote {
     margin: 20px auto;
     width: 80%;
 }
+
 #testimonials .item .quote .right {
     margin-left: 40px;
     font-size: 32px;
     color: #fff;
 }
+
 #testimonials .item .quote .left {
     float: left;
     margin-right: 40px;
     color: #fff;
 }
+
 #testimonials .item h5 {
     color: #fff;
     line-height: 36px;
 }
+
 #testimonials .item h5 span {
     font-weight: 700;
     text-transform: uppercase;
 }
+
 #testimonials .owl-pagination .owl-page.active span {
     background-color: #fff;
 }
+
 #testimonials .owl-pagination .owl-page span {
     border: 2px solid #fff;
     border-radius: 50%;
@@ -733,20 +769,26 @@ Testimonials Style
     transition: all 0.3s ease-in-out;
 }
 
+
 /* video */
+
+#jumbo {
+    display: none;
+}
+
 #jumbo_video {
     padding: 0;
+    display: none;
 }
 
 #jumbo_video video {
     width: 100%;
 }
 
+
 /*
 */
 
 #portfolio .portfolio-box {
-    max-width:100% !important;
-    
+    max-width: 100% !important;
 }
-
