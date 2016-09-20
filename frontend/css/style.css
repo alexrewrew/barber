@@ -613,6 +613,15 @@ footer p {
 Testimonials Style
 ========================================================================== */
 
+#whywe_section p{
+    line-height: 30px;
+    font-size: 18px;
+}
+
+#whywe_section h2{
+    font-size: 30px;
+    padding-top: 160px;
+}
 
 #whywe_section{
     color: #fff;
@@ -621,17 +630,12 @@ Testimonials Style
 }
 
 
-#whywe_section h2{
-    font-size: 30px;
-    padding-top: 180px;
-}
-
 
 /* ==========================================================================
 Work Process Style
 ========================================================================== */
 #work-process {
-    padding: 30px 0px 50px 0px;
+    padding: 30px 0px 80px 0px;
     text-align: center;
 }
 

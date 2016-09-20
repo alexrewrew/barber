@@ -7,15 +7,21 @@ $(document).ready(function () {
         $('.barber-select').removeClass('text-green');
         $(this).addClass('text-green');
 
+        console.log(type);
+
         if ( type == 'basic')
         {
-            $('h2').html('barboss basic');
+            $('#barbos_premium').hide();
             $('#barbor-premium').hide();
+
+            $('#barbos_basic').show();
             $('#barbor-basic').show();
         }else{
-            $('h2').html('barboss premium');
-            $('#barbor-premium').show();
+            $('#barbos_basic').hide();
             $('#barbor-basic').hide();
+
+            $('#barbos_premium').show();
+            $('#barbor-premium').show();
         }
 
         $('.parallax-slider').attr('src', img);
