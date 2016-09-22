@@ -45,7 +45,7 @@ $(document).ready(function () {
     }
     else {
         $("#jumbo").show();
-    }
+    }  
 });
 $(window).on('load resize', function () {
     var ww = $(window).width();

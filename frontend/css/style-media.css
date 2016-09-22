@@ -132,6 +132,35 @@
     .project-name {
         display: none;
     }
+    .choise_map.map1,
+    .choise_map.map2,
+    .choise_map.map3 {
+        margin: 0;
+        margin-bottom: 15px;
+    }
+    .close_modal {
+        right: 15px;
+    }
+    .sign_step {
+        top: 50px;
+    }
+    .choise_price p {
+        text-align: center;
+        margin-bottom: 0px;
+    }
+    .header_price p {
+        font-size: .875em;
+    }
+    .choise_date {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .price_section {
+        padding-bottom: 45px;
+    }
+    input, .contatcs_step .green_button {
+        width: 100%;
+    }
 }
 
 
@@ -161,6 +190,21 @@
         font-size: 30px;
         padding-top: 130px;
     }
+    .choise_map.map1,
+    .choise_map.map2,
+    .choise_map.map3 {
+        margin: 0;
+    }
+    .sign_step {
+        top: 7px;
+    }
+    .choise_date {
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+    .price_section {
+        padding-bottom: 45px;
+    }
 }
 
 
@@ -184,6 +228,16 @@
     }
     .container.whywe_wrapper.master_wrapper {
         width: 100%;
+    }
+    /**/
+    .sign_step {
+        top: 7px;
+    }
+    .choise_time a {
+        padding: 2px;
+    }
+    .price_section {
+        padding-bottom: 45px;
     }
 }
 

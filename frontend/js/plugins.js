@@ -4,6 +4,46 @@ $(document).ready(function () {
     });
 });
 $(document).ready(function () {
+    $('.choise_date').slick({
+        centerMode: true
+        , centerPadding: '65px'
+        , infinite: true
+        , slidesToShow: 13
+        , slidesToScroll: 13
+        , responsive: [
+            {
+                breakpoint: 1200
+                , settings: {
+                    arrows: true
+                    , centerMode: true
+                    , centerPadding: '65px'
+                    , slidesToShow: 11
+                    , slidesToScroll: 11
+                }
+    }
+            , {
+                breakpoint: 1024
+                , settings: {
+                    arrows: true
+                    , centerMode: true
+                    , centerPadding: '65px'
+                    , slidesToShow: 5
+                    , slidesToScroll: 5
+                }
+            }
+                , {
+                breakpoint: 768
+                , settings: {
+                    arrows: true
+                    , centerMode: true
+                    , centerPadding: '40px'
+                    , slidesToShow: 3
+                }
+    }
+  ]
+    });
+});
+$(document).ready(function () {
     $("#jumbo").vegas({
         autoplay: true
         , slides: [

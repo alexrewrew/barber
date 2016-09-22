@@ -1,0 +1,176 @@
+body.sign_sign {
+    background: #efefef;
+    padding-top: 42px;
+}
+
+h2 {
+    font-size: 1.5em;
+    font-family: "HelveticaNeueCyr";
+    line-height: 1.2;
+    text-align: center;
+    font-weight: 300;
+    margin-bottom: 45px;
+}
+
+.sign_step {
+    position: absolute;
+    top: 39px;
+    right: 15px;
+}
+
+.sign_step p {
+    font-size: 1em;
+    font-family: "HelveticaNeueCyr";
+    line-height: 1.2;
+    font-weight: 500;
+    text-align: right;
+}
+
+.map_section {
+    padding-bottom: 69px;
+}
+
+.choise_map {
+    border: 3px solid #000;
+    padding-right: 12px;
+    padding-left: 12px;
+    padding-bottom: 5px;
+}
+
+.choise_map h2 {
+    text-align: left;
+    margin-top: 12px;
+    margin-bottom: 0px;
+}
+
+.choise_map h3 {
+    margin-top: 1px;
+}
+
+.choise_map iframe {
+    width: 100%;
+    margin-top: 9px;
+    height: 200px;
+    margin-bottom: 7px;
+}
+
+.choise_map.map1 {
+    margin-right: 10px;
+}
+
+.choise_map.map2 {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.choise_map.map3 {
+    margin-left: 10px;
+}
+
+.choise_map p {
+    font-weight: 700;
+}
+
+.price_section {
+    padding-top: 41px;
+    padding-bottom: 98px;
+}
+
+.price_section h2 {
+    margin-bottom: 42px;
+}
+
+.choise_price {
+    padding-bottom: 30px;
+}
+
+.choise_price P {
+    font-weight: 700;
+    margin-top: 9px;
+}
+
+.header_price p {
+    margin-top: 0px;
+    margin-bottom: 6px;
+}
+
+.choise_price a {
+    border: 3px solid #000;
+    padding: 2px 21px;
+    color: #000;
+}
+
+.choise_price a:hover,
+.choise_price a.active_choise {
+    border: 3px solid #477a5d;
+    color: #fff;
+    background: #477a5d;
+    text-decoration: none;
+}
+
+.choise_date {
+    text-align: center;
+    margin: 2px 105px 38px 105px;
+}
+
+.choise_date p {
+    font-weight: 700;
+}
+
+.slick-slide {
+    border: 3px solid transparent;
+    padding: 13px 0 7px 0;
+}
+
+.slick-center {
+    border: 3px solid #000;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    font-family: auto;
+    color: #000;
+    font-size: 28px;
+    opacity: 1;
+    font-weight: 700;
+    line-height: 0;
+}
+
+.contatcs_step {
+    padding-top: 42px;
+    padding-bottom: 64px;
+}
+
+.contatcs_step h2 {
+    margin-bottom: 44px;
+}
+
+input {
+    width: 498px;
+    border: 3px solid #000;
+    background: transparent;
+    padding: 7px 0 6px 19px;
+    margin-bottom: 12px;
+}
+
+.contatcs_step .green_button {
+    margin-top:14px;
+    border: 0;
+    font-size: 1.5em;
+    padding: 6px 37px;
+    width: 295px;
+}
+
+
+
+/* footer */
+
+footer {
+    background: #efefef;
+    color: #000;
+    border: 0;
+}
+
+footer a {
+    color: #000;
+}
