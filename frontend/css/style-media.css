@@ -142,7 +142,7 @@
         right: 15px;
     }
     .sign_step {
-        top: 40px;
+        top: 35px;
     }
     .choise_price p {
         text-align: center;
@@ -158,10 +158,10 @@
     .price_section {
         padding-bottom: 45px;
     }
-    input, .contatcs_step .green_button {
+    input,
+    .contatcs_step .green_button {
         width: 100%;
     }
-
     #testimonials p {
         /*font-weight: 100;*/
         /*font-size: 1.2em;*/
@@ -169,13 +169,15 @@
         font-size: 14px !important;
         color: #fff;
     }
-
     #testimonials h2 {
         /*font-weight: 100;*/
         /*font-size: 1.2em;*/
         /*line-height: 1.2;*/
         font-size: 30px;
         color: #fff;
+    }
+    #testimonials {
+        background-attachment:scroll;
     }
 }
 
@@ -212,7 +214,7 @@
         margin: 0;
     }
     .sign_step {
-        top: 7px;
+        top: -15px;
     }
     .choise_date {
         margin-left: 70px;
@@ -221,6 +223,7 @@
     .price_section {
         padding-bottom: 45px;
     }
+    
 }
 
 
