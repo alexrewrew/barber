@@ -16,7 +16,9 @@ h2 {
     position: absolute;
     top: 39px;
     right: 15px;
+    text-align: right;
 }
+
 
 .sign_step p {
     font-size: 1em;
