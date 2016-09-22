@@ -714,16 +714,21 @@ Testimonials Style
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    padding: 60px 0;
+    padding: 140px 0;
     text-align: center;
 }
 
 #testimonials h2 {
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     color: #fff;
+    margin-top: 0px;
 }
 
 #testimonials p {
+    /*font-weight: 100;*/
+    /*font-size: 1.2em;*/
+    /*line-height: 1.2;*/
+    font-size: 18px;
     color: #fff;
 }
 
