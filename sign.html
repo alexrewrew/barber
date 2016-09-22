@@ -30,9 +30,6 @@
     <link rel="stylesheet" type="text/css" href="frontend/plugins/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="frontend/plugins/bootstrap/css/bootstrap-theme.min.css">
     <script type="text/javascript" src="frontend/plugins/bootstrap/js/bootstrap.min.js"></script>
-    <!-- Vegas carousel -->
-    <link rel="stylesheet" type="text/css" href="frontend/plugins/vegas/vegas.min.css">
-    <script type="text/javascript" src="frontend/plugins/vegas/vegas.min.js"></script>
     <!-- Select2 -->
     <link rel="stylesheet" type="text/css" href="frontend/plugins/select2/css/select2.min.css">
     <script type="text/javascript" src="frontend/plugins/select2/js/select2.full.min.js"></script>
@@ -44,13 +41,10 @@
     <script type="text/javascript" src="frontend/plugins/slick/slick.min.js"></script>
     <!-- Sliders -->
     <script type="text/javascript" src="frontend/js/sliders.js"></script>
-    <!-- Scroll -->
-    <script type="text/javascript" src="frontend/js/scrolling.js"></script>
-    <script type="text/javascript" src="frontend/plugins/WOW/dist/wow.js"></script>
-    <script type="text/javascript" src="frontend/plugins/jquery.easing.min.js"></script>
     <!-- Main scripts -->
     <script type="text/javascript" src="frontend/js/plugins.js"></script>
     <script type="text/javascript" src="frontend/js/scripts.js"></script>
+    <script type="text/javascript" src="frontend/js/scrolling.js"></script>
     <!-- Styles -->
     <link rel="stylesheet" type="text/css" href="frontend/css/style.css">
     <link rel="stylesheet" type="text/css" href="frontend/css/portfolio.css">
@@ -64,14 +58,14 @@
     <![endif]-->
 </head>
 
-<body class="sign_sign">
+<body class="sign_sign" id="first">
     <section class="container map_section">
         <div class="row">
             <div class="col-lg-12">
                 <h2>Выберите место, куда бы вы хотели прийти</h2>
                 <div class="sign_step">
                     <p>шаг 1 из 3</p>
-                    <img src="frontend/img/arrow.png" alt="">
+                    <a href="#first" class="step"><img src="frontend/img/arrow.png" alt=""></a>
                 </div>
             </div>
         </div>
@@ -108,13 +102,13 @@
             </div>
         </div>
     </section>
-    <section class="container price_section">
+    <section class="container price_section" id="second">
         <div class="row">
             <div class="col-lg-12">
                 <h2>Выберите необходимую для вас услугу</h2>
                 <div class="sign_step">
                     <p>шаг 2 из 3</p>
-                    <img src="frontend/img/arrow.png" alt="">
+                    <a href="#first" class="step"><img src="frontend/img/arrow.png" alt=""></a>
                 </div>
             </div>
         </div>
@@ -406,15 +400,17 @@
                 <h2>Укажите свои контактные данные для связи</h2>
                 <div class="sign_step">
                     <p>шаг 3 из 3</p>
-                    <img src="frontend/img/arrow.png" alt="">
+                    <a href="#second" class="step"><img src="frontend/img/arrow.png" alt=""></a>
                 </div>
             </div>
         </div>
         <div class="row">
             <div class="col-lg-12">
                 <form action="">
-                    <input type="tel" placeholder="Номер телефона"><br>
-                    <input type="text" placeholder="Имя"><br>
+                    <input type="tel" placeholder="Номер телефона">
+                    <br>
+                    <input type="text" placeholder="Имя">
+                    <br>
                     <button class="green_button">ЗАПИСАТЫСЯ</button>
                 </form>
             </div>

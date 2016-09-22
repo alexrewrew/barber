@@ -1,5 +1,10 @@
-// $('a[href^="#"]').click(function(){
-//     var target = $(this).attr('href');
-//     $('html, body').animate({scrollTop: $(target).offset().top}, 800);
-//     return false;
-// });
+$(document).ready(function () {
+    $(".step").click(function (event) {
+        event.preventDefault();
+        var id = $(this).attr('href')
+            , top = $(id).offset().top;
+        $('body,html').animate({
+            scrollTop: top
+        }, 1000);
+    });
+});
