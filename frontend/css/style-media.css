@@ -161,6 +161,22 @@
     input, .contatcs_step .green_button {
         width: 100%;
     }
+
+    #testimonials p {
+        /*font-weight: 100;*/
+        /*font-size: 1.2em;*/
+        /*line-height: 1.2;*/
+        font-size: 14px !important;
+        color: #fff;
+    }
+
+    #testimonials h2 {
+        /*font-weight: 100;*/
+        /*font-size: 1.2em;*/
+        /*line-height: 1.2;*/
+        font-size: 30px;
+        color: #fff;
+    }
 }
 
 

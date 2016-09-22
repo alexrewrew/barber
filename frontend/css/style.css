@@ -312,6 +312,7 @@ a,
 
 .barboss_right {
     padding-left: 40px;
+    padding-bottom: 30px;
 }
 
 .noun_img {
@@ -365,8 +366,8 @@ p.table_header {
 }
 
 a.line_link {
-    margin-top: 30px;
-    margin-bottom: 20px;
+    margin-top: 0px;
+    margin-bottom: 40px;
     font-size: 1.25em;
     padding: 3px 37px;
 }
@@ -728,7 +729,7 @@ Testimonials Style
     /*font-weight: 100;*/
     /*font-size: 1.2em;*/
     /*line-height: 1.2;*/
-    font-size: 18px;
+    /*font-size: 18px;*/
     color: #fff;
 }
 
@@ -784,8 +785,8 @@ Testimonials Style
 #jumbo_video {
     padding: 0;
     display: none;
-    height: 100%;
-    min-height: 700px;
+    /*height: 100%;*/
+    /*min-height: 700px;*/
 }
 
 #jumbo_video video {
