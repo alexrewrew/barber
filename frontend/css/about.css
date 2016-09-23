@@ -1,0 +1,106 @@
+#jumbo_about {
+    background: url(../img/about_back.png);
+    background-size: cover;
+    background-position: center;
+    padding-top: 219px;
+    padding-bottom: 311px;
+}
+
+#jumbo_about h1 {
+    font-family: 'Aero Matics Stencil';
+    text-transform: lowercase;
+    font-weight: 400;
+    font-size: 1.875em;
+    line-height: 1.2;
+    margin-bottom: 18px;
+}
+
+#jumbo_about  p {
+    color: #fff;
+    text-align: center;
+    max-width: 950px;
+    margin: 0 auto;
+    line-height: 1.2;
+    font-weight: 500;
+}
+
+#phyl h2 {
+    margin-bottom: 42px;
+}
+
+.left_this {
+    background: url(../img/fists.png);
+    background-size: cover;
+    min-height: 404px;
+    background-position: center;
+}
+
+.left_this.two_this {
+    background: url(../img/skin.png);
+    background-size: cover;
+    min-height: 404px;
+    background-position: center;
+}
+
+.left_this.three_this {
+    background: url(../img/hat.png);
+    background-size: cover;
+    min-height: 404px;
+    background-position: center;
+}
+
+.this_content {
+    padding-left: 20px;
+    padding-top: 4px;
+    max-width: 580px;
+}
+
+.this_content ul {
+    list-style-image: url(../img/list.png);
+    margin-left: 0;
+    margin-top: 16px;
+    padding-left: 12px;
+}
+
+.this_content ul li {
+    margin-bottom: 25px;
+    line-height: 1.2;
+    font-size: 1em;
+}
+
+#work-process {
+    color:#fff;
+    background: #000;
+}
+
+#work-process h2 {
+    margin-top: 20px;
+        margin-bottom: 30px;
+}
+
+#contacts_bottom p {
+    font-size: .997em;
+    font-weight: 100;
+    margin-bottom: 18px;
+    line-height: 1.2;
+    color: #7a7971;
+}
+
+.conpad {
+    padding-top: 22px;
+    padding-bottom: 57px;
+}
+
+#contacts_bottom h4 {
+    margin-bottom: 22px;
+}
+
+.border_contact {
+    border-left:3px solid #a7a7a7;
+    border-right:3px solid #a7a7a7;
+}
+
+.conpad .col-lg-4 {
+    padding-left: 5px;
+    padding-right: 5px;
+}
