@@ -147,6 +147,10 @@
     .choise_price p {
         text-align: center;
         margin-bottom: 0px;
+        margin-top: 5px;
+    }
+    .choise_price .col-xs-12 p {
+        margin-top: 15px;
     }
     .header_price p {
         font-size: .875em;
@@ -182,6 +186,15 @@
     .border_contact {
         border-left: 0;
         border-right: 0;
+    }
+    #thisis .this_content {
+        padding-top: 20px;
+    }
+    #vacations p {
+        margin-bottom: 50px;
+    }
+    #pos p {
+        margin-bottom: 50px;
     }
 }
 
