@@ -73,6 +73,12 @@ h2 {
     font-weight: 700;
 }
 
+.choise_map .green_button {
+    padding: 6px 37px;
+    display: block;
+    text-align: center;
+}
+
 .price_section {
     padding-top: 41px;
     padding-bottom: 98px;

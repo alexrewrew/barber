@@ -800,3 +800,106 @@ Testimonials Style
 #portfolio .portfolio-box {
     max-width: 100% !important;
 }
+
+
+/**/
+
+#jumbo_career {
+    background: url(../img/career.png);
+    background-size: cover;
+    background-position: center;
+    padding-top: 251px;
+    padding-bottom: 344px;
+}
+
+#jumbo_career h1 {
+    font-family: 'Aero Matics Stencil';
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 1.875em;
+    line-height: 1.2;
+}
+
+.left_this {
+    background: url(../img/career_chair.png);
+    background-size: cover;
+    min-height: 404px;
+    background-position: center;
+}
+
+#thisis h2 {
+    margin-bottom: 42px;
+}
+
+.this_content {
+    padding-left: 20px;
+    padding-top: 4px;
+    max-width: 415px;
+}
+
+.this_content h3 {
+    font-family: 'HelveticaNeueCyr', sans-serif;
+    line-height: 1.2;
+    font-size: 1em;
+}
+
+.this_content ul {
+    list-style-image: url(../img/list.png);
+    margin-left: 0;
+    margin-top: 16px;
+    padding-left: 12px;
+}
+
+.this_content ul li {
+    margin-bottom: 25px;
+    line-height: 1.2;
+    font-size: 1em;
+}
+
+#vacations {
+    background: #000;
+    color:#fff;
+}
+
+#vacations h2 {
+    margin-top: 29px;
+    margin-bottom: 56px;
+}
+
+#vacations h4 {
+    margin-top: 18px;
+    margin-bottom: 5px;
+    font-weight: 400;
+}
+
+#vacations p {
+    padding-left: 75px;
+    padding-right: 75px;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+.resume_button {
+    padding-top: 60px;
+    padding-bottom: 61px;
+}
+
+.resume_button .green_button {
+    padding:6px 35px;
+}
+
+#pos {
+    padding-bottom:40px;
+}
+
+#pos h2 {
+    
+    margin-top: 26px;
+    margin-bottom: 56px;
+}
+
+#pos p {
+    margin-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 700;
+}

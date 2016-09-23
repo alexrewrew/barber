@@ -142,7 +142,7 @@
         right: 15px;
     }
     .sign_step {
-        top: 35px;
+        top: 25px;
     }
     .choise_price p {
         text-align: center;
@@ -177,7 +177,7 @@
         color: #fff;
     }
     #testimonials {
-        background-attachment:scroll;
+        background-attachment: scroll;
     }
 }
 
@@ -223,7 +223,10 @@
     .price_section {
         padding-bottom: 45px;
     }
-    
+    #vacations p {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 }
 
 
@@ -257,6 +260,10 @@
     }
     .price_section {
         padding-bottom: 45px;
+    }
+    #vacations p {
+        padding-left: 10px;
+        padding-right: 10px;
     }
 }
 
